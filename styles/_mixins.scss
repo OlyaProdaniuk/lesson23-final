@@ -1,0 +1,14 @@
+@mixin background(){
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+@mixin button{
+    padding: 15px 40px;
+    font-size: $font16;
+    color: white;
+    background-color: $purpleColor;
+    border: none;
+}
